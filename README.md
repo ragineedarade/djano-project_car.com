@@ -82,6 +82,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Special thanks to all contributors and supporters of this project.
 
-```
 
-Replace placeholders such as `yourusername` and add the actual URLs where necessary. This `README.md` file provides a clear and concise overview of the project, setup instructions, usage details, and contribution guidelines.
+ 
