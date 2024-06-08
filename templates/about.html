@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About CarWorld</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: gray;
+      background: url("https://th.bing.com/th/id/R.602e1abdfd2e657f8564ec50de0b36bd?rik=L3qsYSRpBYCePw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBIWhA8N.jpg&ehk=19uiSsiC8QpjJ2rs2YTIh3sfLJZXq%2b2KSZI6%2bxvC3PI%3d&risl=&pid=ImgRaw&r=0");
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      text-align: center;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    .hoster-card {
+      display: flex;
+      align-items: center;
+      border: 1px solid #352a2a;
+      padding: 20px;
+      border-color: 2px solid black;
+    }
+
+    .hoster-card img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+      border-radius: 50%;
+      height: 200px;
+      border-color: black 2px;
+    }
+    ul li {
+      list-style-type: none;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      color: black;
+    }
+    .hoster-info {
+      flex: 1;
+    }
+    nav {
+      text-align: left;
+      margin-top: 0px;
+      padding-top: 0px;
+      height: 100px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(45deg, rgb(117, 22, 22));
+      text-align: center;
+      color: black;
+    }
+    p {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+
+      color: black;
+    }
+    h2 {
+      font-weight: 600;
+      color: rgb(241, 240, 242);
+      font-size: 32px;
+    }
+
+    nav h1 {
+      font-size: 52px;
+      font-weight: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      color: #e7e5e5;
+    }
+    button a {
+      align-items: end;
+      color: #f0e6e6;
+      left: 900px;
+      justify-content: end;
+      font-size: 20px;
+      margin-top: 50px;
+    }
+    button {
+      height: 80px;
+      width: 120px;
+      border-radius: 15px;
+      margin-left: 25px;
+      margin-top: 25px;
+      font-weight: 400;
+      font-family: cursive;
+      background: url(" https://png.pngtree.com/background/20210709/original/pngtree-black-minimalist-atmospheric-wooden-background-picture-image_965794.jpg");
+      box-shadow: 2px #e7e5e5;
+    }
+    button:hover {
+      background-color: black;
+      color: black;
+    }
+  </style>
+
+  <body>
+    <button type="button">
+      <a href="{% url 'home' %}">Home</a>
+    </button>
+    <nav>
+      <h1>About CarWorld</h1>
+    </nav>
+    <div class="container">
+      <section id="mission">
+        <h2>Our Mission</h2>
+        <p>
+          Our mission at CarWorld is to empower car enthusiasts and buyers with
+          the knowledge they need to make informed decisions about their
+          automotive needs. Whether you're a seasoned car aficionado or a
+          first-time buyer, we strive to be your trusted source for all things
+          related to cars.
+        </p>
+      </section>
+      <section id="overview">
+        <h2>Company Overview</h2>
+        <p>
+          CarWorld was founded with a vision to revolutionize the way people
+          research and purchase cars. With a team of experienced automotive
+          enthusiasts and industry experts, we curate detailed information about
+          a wide range of car models, ensuring that our users have access to the
+          latest and most accurate data.
+        </p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Comprehensive Model Information</li>
+          <li>Latest Updates</li>
+          <li>Comparison Tools</li>
+          <li>Car Buying Guides</li>
+          <li>Rental car guide</li>
+        </ul>
+      </section>
+      <section id="famous-cars">
+        <h2>Most Famous Cars in the World</h2>
+        <p>
+          From timeless classics to modern marvels, the world of automobiles
+          boasts an array of iconic cars that have left an indelible mark on
+          history. Some of the most famous cars include the Ford Mustang,
+          Volkswagen Beetle, Porsche 911, and Ferrari 250 GTO, to name a few.
+        </p>
+      </section>
+      <section id="popular-cars">
+        <h2>Most Popular Cars in India</h2>
+        <p>
+          In India, where diversity and affordability are key factors, several
+          cars have gained immense popularity among consumers. From the compact
+          and efficient Maruti Suzuki Swift to the feature-packed Hyundai Creta,
+          and the budget-friendly Tata Tiago, Indian car buyers have a wide
+          range of options to choose from to suit their needs and preferences.
+        </p>
+      </section>
+      <section id="hoster">
+        <div class="hoster-card">
+          <img
+            src="https://live.staticflickr.com/7741/17634099046_4761372b93_b.jpg"
+          />
+          <div class="hoster-info">
+            <h2>Raginee Darade</h2>
+            <p>
+              I am from Khandwa. I am a second year Student of B.tech (CSE) From
+              <br />Shushila Devi Bansal College of Engineering Indore (Madhya
+              Pradesh)
+            </p>
+            <button type="button">
+              <a
+                href=" https://sites.google.com/view/ragineedarade/home?read_current=1"
+                >My Portfolio</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
